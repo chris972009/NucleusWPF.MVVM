@@ -6,8 +6,8 @@ namespace NucleusWPF.MVVM
     {
         public RelayCommand(Action execute, Func<bool> canExecute)
         {
-            this.execute = execute;
-            this.canExecute = canExecute;
+            _execute = execute ?? throw new ArgumentNullException(nameof(execute));
+            _canExecute = canExecute ?? throw new ArgumentNullException(nameof(canExecute));
         }
 
         public RelayCommand(Action execute) : this(execute, () => true)
@@ -15,63 +15,60 @@ namespace NucleusWPF.MVVM
 
         }
 
-        private readonly Action execute;
+        private readonly Action _execute;
 
-        private readonly Func<bool> canExecute;
+        private readonly Func<bool> _canExecute;
 
         public event EventHandler? CanExecuteChanged;
 
-        public bool CanExecute(object? parameter) => canExecute();
+        public bool CanExecute(object? parameter) => _canExecute();
 
-        public void Execute(object? parameter) => execute();
+        public void Execute(object? parameter) => _execute();
 
-        public void RaiseCanExecuteChanged()
-        {
-            var handler = CanExecuteChanged;
-            if (handler != null)
-                handler(this, EventArgs.Empty);
-        }
+        public void RaiseCanExecuteChanged() =>
+            CanExecuteChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public sealed class RelayCommand<T> : IRelayCommand
     {
         public RelayCommand(Action<T> execute, Func<T, bool> canExecute)
         {
-            this.execute = execute;
-            this.canExecute = canExecute;
+            _execute = execute ?? throw new ArgumentNullException(nameof(execute));
+            _canExecute = canExecute ?? throw new ArgumentNullException(nameof(canExecute));
         }
 
         public RelayCommand(Action<T> execute, Func<bool> canExecute) :
             this(execute, _ => canExecute())
         {
-
+            _parameterRequired = false;
         }
 
         public RelayCommand(Action<T> execute) : this(execute, _ => true)
         {
-
+            _parameterRequired = false;
         }
 
-        private readonly Action<T> execute;
+        private readonly bool _parameterRequired = true;
 
-        private readonly Func<T, bool> canExecute;
+        private readonly Action<T> _execute;
+
+        private readonly Func<T, bool> _canExecute;
 
         public event EventHandler? CanExecuteChanged;
 
         public bool CanExecute(object? parameter)
         {
-            if (parameter == null && typeof(T).IsValueType && Nullable.GetUnderlyingType(typeof(T)) == null) return false;
-            return canExecute(parameter is T t ? t : default!);
+            if (!_parameterRequired) return _canExecute(default!);
+            else if (parameter is T t) return _canExecute(t);
+            else return false;
         }
 
         public void Execute(object? parameter)
         {
-            throw new NotImplementedException();
+            if (parameter is T t) _execute(t);
         }
 
-        public void RaiseCanExecuteChanged()
-        {
-            throw new NotImplementedException();
-        }
+        public void RaiseCanExecuteChanged() =>
+            CanExecuteChanged?.Invoke(this, EventArgs.Empty);
     }
 }
