@@ -17,8 +17,6 @@
         private readonly Func<Task> _execute;
         private readonly Func<bool> _canExecute;
 
-        public delegate Task ExecuteDelegate();
-
         public event EventHandler? CanExecuteChanged;
 
         public bool CanExecute(object? parameter) =>
