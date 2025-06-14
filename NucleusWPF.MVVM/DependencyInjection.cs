@@ -3,17 +3,18 @@
     public class DependencyInjection
     {
         private static DependencyInjection? _instance;
-        public static DependencyInjection Instance
-        {
-            get
-            {
-                if (_instance == null) _instance = new();
-                return _instance;
-            }
-        }
+        public static DependencyInjection Instance =>
+            _instance ??= new DependencyInjection();
 
-        private readonly Dictionary<Type, Type> _interfacesMap = [];
-        private readonly Dictionary<Type, object> _singletonsMap = [];
+        private readonly Dictionary<Type, Type> _interfacesMap = new()
+        {
+            { typeof(IMessageService), typeof(MessageService) },
+        };
+
+        private readonly Dictionary<Type, object> _singletonsMap = new()
+        {
+            { typeof(IWindowService), WindowService.Instance },
+        };
 
         public void Register<TInterface, TImplementation>() where TImplementation : TInterface
         {
@@ -55,8 +56,7 @@
                 .OrderByDescending(c => c.GetParameters().Length)
                 .FirstOrDefault();
 
-            if (constructor == null)
-                throw new InvalidOperationException($"No public constructors found for {type}.");
+            _ = constructor ?? throw new InvalidOperationException($"No public constructors for for {type}.");
 
             var parameters = constructor.GetParameters();
             if (parameters.Length == 0)
