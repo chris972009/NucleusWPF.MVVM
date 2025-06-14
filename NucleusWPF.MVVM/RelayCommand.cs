@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.ComponentModel;
+using System.Windows;
 
 namespace NucleusWPF.MVVM
 {
@@ -23,7 +24,18 @@ namespace NucleusWPF.MVVM
 
         public bool CanExecute(object? parameter) => _canExecute();
 
-        public void Execute(object? parameter) => _execute();
+        public void Execute(object? parameter)
+        {
+            try
+            {
+                _execute();
+            }
+            catch (Exception ex)
+            {
+                var messageService = DependencyInjection.Instance.Resolve<IMessageService>();
+                messageService.Show(ex);
+            }
+        }
 
         public void RaiseCanExecuteChanged() =>
             CanExecuteChanged?.Invoke(this, EventArgs.Empty);
@@ -65,7 +77,18 @@ namespace NucleusWPF.MVVM
 
         public void Execute(object? parameter)
         {
-            if (parameter is T t) _execute(t);
+            try
+            {
+                if (parameter is not T t)
+                    throw new ArgumentException($"Parameter must be of type {typeof(T).Name}", nameof(parameter));
+
+                _execute(t);
+            }
+            catch (Exception ex)
+            {
+                var messageService = DependencyInjection.Instance.Resolve<IMessageService>();
+                messageService.Show(ex);
+            }
         }
 
         public void RaiseCanExecuteChanged() =>
