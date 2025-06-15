@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using System.Windows;
-
-namespace NucleusWPF.MVVM
+﻿namespace NucleusWPF.MVVM
 {
     public sealed class RelayCommand : IRelayCommand
     {

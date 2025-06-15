@@ -1,13 +1,30 @@
 ﻿namespace NucleusWPF.MVVM
 {
+    /// <summary>
+    /// Iplmentation if mand that supports asynchronous execution.
+    /// </summary>
     public sealed class AsyncRelayCommand : IRelayCommand
     {
+        /// <summary>
+        /// Initializes a new isntance of <see cref="AsyncRelayCommand"/> class.
+        /// </summary>
+        /// <param name="execute">Action to be executed when invoked.</param>
+        /// <param name="canExecute">Determines whether the command can execute.</param>
+        /// <exception cref="ArgumentNullException"></exception>
         public AsyncRelayCommand(Func<Task> execute, Func<bool> canExecute)
         {
             _execute = execute ?? throw new ArgumentNullException(nameof(execute));
             _canExecute = canExecute ?? throw new ArgumentNullException(nameof(canExecute));
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AsyncRelayCommand"/> class with the specified asynchronous
+        /// execute action.
+        /// </summary>
+        /// <remarks>This constructor creates an <see cref="AsyncRelayCommand"/> that is always enabled. 
+        /// Use the overload with a <c>canExecute</c> predicate to specify conditions under which the command is
+        /// enabled.</remarks>
+        /// <param name="execute">Action to be executed when invoked.</param>
         public AsyncRelayCommand(Func<Task> execute) : this(execute, () => true)
         {
 
@@ -17,8 +34,10 @@
         private readonly Func<Task> _execute;
         private readonly Func<bool> _canExecute;
 
+        /// <inheritdoc/>
         public event EventHandler? CanExecuteChanged;
 
+        /// <inheritdoc/>
         public bool CanExecute(object? parameter) =>
             _isExecuting == 0 && _canExecute();
 
@@ -37,6 +56,7 @@
             }
         }
 
+        /// <inheritdoc/>
         public void Execute(object? parameter)
         {
             ExecuteAsync().ContinueWith(t =>
@@ -50,6 +70,9 @@
             TaskScheduler.FromCurrentSynchronizationContext());
         }
 
+        /// <summary>
+        /// Raises the <see cref="CanExecuteChanged"/> event.
+        /// </summary>
         public void RaiseCanExecuteChanged()
         {
             var handler = CanExecuteChanged;
