@@ -1,8 +1,19 @@
 ﻿namespace NucleusWPF.MVVM
 {
+    /// <summary>
+    /// Provides a dependency injection container for transient and singleton servies and models.
+    /// </summary>
     public class DependencyInjection
     {
+        private DependencyInjection()
+        {
+
+        }
+
         private static DependencyInjection? _instance;
+        /// <summary>
+        /// Gets the singleton instance of the DependencyInjection class.
+        /// </summary>
         public static DependencyInjection Instance =>
             _instance ??= new DependencyInjection();
 
@@ -16,26 +27,41 @@
             { typeof(IWindowService), WindowService.Instance },
         };
 
-        public void Register<TInterface, TImplementation>() where TImplementation : TInterface
-        {
+        /// <summary>
+        /// Register an interface to its implementation type.
+        /// </summary>
+        /// <typeparam name="TInterface">Interface to be registered.</typeparam>
+        /// <typeparam name="TImplementation">Implementation of interface</typeparam>
+        public void Register<TInterface, TImplementation>() where TImplementation : TInterface =>
             _interfacesMap[typeof(TInterface)] = typeof(TImplementation);
-        }
 
+        /// <summary>
+        /// Registers an interface its implementation type as a singleton.
+        /// </summary>
+        /// <typeparam name="TInterface">Interface to be registered.</typeparam>
+        /// <typeparam name="TImplementation">Implementation of interface</typeparam>
         public void RegisterSingleton<TInterface, TImplementation>() where TImplementation : TInterface, new()
         {
             var instance = new TImplementation();
             _singletonsMap[typeof(TInterface)] = instance;
         }
 
-        public void RegisterSingleton<TInterface>(TInterface instance)
-        {
+        /// <summary>
+        /// REgister an instance of an interface as a singleton.
+        /// </summary>
+        /// <typeparam name="TInterface">Interface to be registered</typeparam>
+        /// <param name="instance">Implementation of interface</param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void RegisterSingleton<TInterface>(TInterface instance) =>
             _singletonsMap[typeof(TInterface)] = instance ?? throw new ArgumentNullException(nameof(instance));
-        }
 
-        public TInterface Resolve<TInterface>()
-        {
-            return (TInterface)Resolve(typeof(TInterface));
-        }
+        /// <summary>
+        /// Resolves an intance of the specified interface type.
+        /// </summary>
+        /// <typeparam name="TInterface">Interface to resolve</typeparam>
+        /// <returns>Returns the resolved implementation.</returns>
+        public TInterface Resolve<TInterface>() =>
+            (TInterface)Resolve(typeof(TInterface));
 
         private object Resolve(Type type)
         {

@@ -1,7 +1,7 @@
 ﻿namespace NucleusWPF.MVVM
 {
     /// <summary>
-    /// Iplmentation if mand that supports asynchronous execution.
+    /// Implmentation of ICommand that supports asynchronous execution.
     /// </summary>
     public sealed class AsyncRelayCommand : IRelayCommand
     {
@@ -41,6 +41,9 @@
         public bool CanExecute(object? parameter) =>
             _isExecuting == 0 && _canExecute();
 
+        /// <summary>
+        /// Executes the command asynchronously.
+        /// </summary>
         public async Task ExecuteAsync()
         {
             if (Interlocked.CompareExchange(ref _isExecuting, 1, 0) != 0) return;
@@ -81,8 +84,18 @@
         }
     }
 
-    public sealed class AsyncRelayCommand<T> : IRelayCommand
+    /// <summary>
+    /// Implentation of ICommand that supports asynchronous execution.
+    /// </summary>
+    /// <typeparam name="T">Specifies the type for command parameter.</typeparam>
+    public sealed class AsyncRelayCommand<T>
     {
+        /// <summary>
+        /// Initializes a new isntance of <see cref="AsyncRelayCommand"/> class.
+        /// </summary>
+        /// <param name="execute">Action to be executed when invoked.</param>
+        /// <param name="canExecute">Determines whether the command can execute.</param>
+        /// <exception cref="ArgumentNullException"></exception>
         public AsyncRelayCommand(Func<T, Task> execute, Func<T, bool> canExecute)
         {
             _execute = execute ?? throw new ArgumentNullException(nameof(execute));
@@ -90,11 +103,26 @@
             _canExecuteParameterRequired = true;
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AsyncRelayCommand"/> class with the specified asynchronous
+        /// execute action.
+        /// </summary>
+        /// <remarks>This constructor creates an <see cref="AsyncRelayCommand"/> where
+        /// <see cref="CanExecute(object?)"/> does not require a parameter.</remarks>
+        /// <param name="execute">Action to be executed when invoked.</param>
         public AsyncRelayCommand(Func<T, Task> execute, Func<bool> canExecute) : this(execute, (param) => canExecute())
         {
             _canExecuteParameterRequired = false;
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AsyncRelayCommand"/> class with the specified asynchronous
+        /// execute action.
+        /// </summary>
+        /// <remarks>This constructor creates an <see cref="AsyncRelayCommand"/> that is always enabled. 
+        /// Use the overload with a <c>canExecute</c> predicate to specify conditions under which the command is
+        /// enabled.</remarks>
+        /// <param name="execute">Action to be executed when invoked.</param>
         public AsyncRelayCommand(Func<T, Task> execute) : this(execute, (param) => true)
         {
             _canExecuteParameterRequired = false;
@@ -107,6 +135,7 @@
 
         public event EventHandler? CanExecuteChanged;
 
+        /// <inheritdoc/>
         public bool CanExecute(object? parameter)
         {
             if (_isExecuting != 0) return false;
@@ -117,6 +146,10 @@
             return _canExecute(default!);
         }
 
+        /// <summary>
+        /// Executes the command asynchronously.
+        /// </summary>
+        /// <param name="t">The parameter to be passed to the execute action.</param>
         public async Task ExecuteAsync(T t)
         {
             if (Interlocked.CompareExchange(ref _isExecuting, 1, 0) != 0) return;
@@ -132,6 +165,7 @@
             }
         }
 
+        /// <inheritdoc/>
         public void Execute(object? parameter)
         {
             Exception? ex = null;
@@ -157,6 +191,9 @@
             }
         }
 
+        /// <summary>
+        /// Raises the <see cref="CanExecuteChanged"/> event.
+        /// </summary>
         public void RaiseCanExecuteChanged()
         {
             var handler = CanExecuteChanged;
