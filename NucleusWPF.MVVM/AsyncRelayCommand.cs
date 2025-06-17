@@ -107,9 +107,10 @@
         /// Initializes a new instance of the <see cref="AsyncRelayCommand"/> class with the specified asynchronous
         /// execute action.
         /// </summary>
-        /// <remarks>This constructor creates an <see cref="AsyncRelayCommand"/> where
+        /// <remarks>This constructor creates an <see cref="AsyncRelayCommand"/> where CanExecute does not require a parameter.
         /// <see cref="CanExecute(object?)"/> does not require a parameter.</remarks>
         /// <param name="execute">Action to be executed when invoked.</param>
+        /// <param name="canExecute">Predicate to determine whether the command can execute.</param>
         public AsyncRelayCommand(Func<T, Task> execute, Func<bool> canExecute) : this(execute, (param) => canExecute())
         {
             _canExecuteParameterRequired = false;
@@ -133,6 +134,7 @@
         private readonly Func<T, Task> _execute;
         private readonly Func<T, bool> _canExecute;
 
+        /// <inheritdoc/>
         public event EventHandler? CanExecuteChanged;
 
         /// <inheritdoc/>
