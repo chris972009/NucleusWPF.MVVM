@@ -6,7 +6,7 @@ namespace NucleusWPF.MVVM
     /// <summary>
     /// Provides functionality for creating and displaying WPF windows associated with view models.
     /// Supports explicit view/viewmodel mapping and automatic view resolution by naming convention.
-    /// </summary
+    /// </summary>
     public class WindowService : IWindowService
     {
         private WindowService()
