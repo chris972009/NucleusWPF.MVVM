@@ -38,3 +38,5 @@ Clone or add the NucleusWPF.MVVM project to your solution:
   - [Opening a Window](docs/IWindowService.md#opening-a-window)
     - [Show Method](docs/IWindowService.md#show-method)
     - [ShowDialog Method](docs/IWindowService.md#showdialog-method)
+
+ API Docucumentation is available [here](https://chris972009.github.io/NucleusWPF.MVVM/)
