@@ -22,6 +22,11 @@
         "exclude": [
           "_site/**"
         ]
+      },
+      {
+        "files": [
+          "api/**.yml"
+        ]
       }
     ],
     "resource": [
