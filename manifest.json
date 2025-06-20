@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/home/runner/work/NucleusWPF.MVVM/NucleusWPF.MVVM",
+  "source_base_path": "D:/a/NucleusWPF.MVVM/NucleusWPF.MVVM",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -16,6 +16,201 @@
       "output": {
         ".html": {
           "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.AsyncRelayCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.AsyncRelayCommand-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.AsyncRelayCommand<T>",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.AsyncRelayCommand-1.yml\" sourcestartlinenumber=\"1\">Implentation of ICommand that supports asynchronous execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.AsyncRelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.AsyncRelayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.AsyncRelayCommand",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.AsyncRelayCommand.yml\" sourcestartlinenumber=\"1\">Implmentation of ICommand that supports asynchronous execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.DependencyInjection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.DependencyInjection",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.DependencyInjection.yml\" sourcestartlinenumber=\"1\">Provides a dependency injection container for transient and singleton servies and models.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.IMessageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.IMessageService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.IMessageService",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.IMessageService.yml\" sourcestartlinenumber=\"1\">Defines methods for displaying messages to the user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.IRelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.IRelayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.IRelayCommand",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.IRelayCommand.yml\" sourcestartlinenumber=\"1\">Represents a command that can be executed and provides a mechanism to notify changes in its ability to execute.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.IWindowService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.IWindowService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.IWindowService",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.IWindowService.yml\" sourcestartlinenumber=\"1\">Provides functionality for creating new windows.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.MessageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.MessageService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.MessageService",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.MessageService.yml\" sourcestartlinenumber=\"1\">Provides methods for displaying messages and exceptions to the user using WPF message boxes.\nImplements the <xref href=\"NucleusWPF.MVVM.IMessageService\" data-throw-if-not-resolved=\"false\"></xref> interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.RelayCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.RelayCommand-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.RelayCommand<T>",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.RelayCommand-1.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"NucleusWPF.MVVM.IRelayCommand\" data-throw-if-not-resolved=\"false\"></xref> that supports synchronous execution with a strongly-typed parameter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.RelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.RelayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.RelayCommand",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.RelayCommand.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"NucleusWPF.MVVM.IRelayCommand\" data-throw-if-not-resolved=\"false\"></xref> that supports synchronous execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.ValidViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.ValidViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.ValidViewModel",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.ValidViewModel.yml\" sourcestartlinenumber=\"1\">Implementation of INotifyDataErrorInfo and INotifyPropertyChanged.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.ViewModelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.ViewModelBase",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.ViewModelBase.yml\" sourcestartlinenumber=\"1\">Implementation of INotifyPropertyChanged.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.WindowService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.WindowService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM.WindowService",
+      "Summary": "<p sourcefile=\"api/NucleusWPF.MVVM.WindowService.yml\" sourcestartlinenumber=\"1\">Provides functionality for creating and displaying WPF windows associated with view models.\nSupports explicit view/viewmodel mapping and automatic view resolution by naming convention.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NucleusWPF.MVVM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NucleusWPF.MVVM.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NucleusWPF.MVVM",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""

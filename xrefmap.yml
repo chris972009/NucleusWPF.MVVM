@@ -1,3 +1,906 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: NucleusWPF.MVVM
+  name: NucleusWPF.MVVM
+  href: api/NucleusWPF.MVVM.html
+  commentId: N:NucleusWPF.MVVM
+  fullName: NucleusWPF.MVVM
+  nameWithType: NucleusWPF.MVVM
+- uid: NucleusWPF.MVVM.AsyncRelayCommand
+  name: AsyncRelayCommand
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html
+  commentId: T:NucleusWPF.MVVM.AsyncRelayCommand
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand
+  nameWithType: AsyncRelayCommand
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task})
+  name: AsyncRelayCommand(Func<Task>)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand__ctor_System_Func_System_Threading_Tasks_Task__
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task})
+  name.vb: New(Func(Of Task))
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.AsyncRelayCommand(System.Func<System.Threading.Tasks.Task>)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand.New(System.Func(Of System.Threading.Tasks.Task))
+  nameWithType: AsyncRelayCommand.AsyncRelayCommand(Func<Task>)
+  nameWithType.vb: AsyncRelayCommand.New(Func(Of Task))
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})
+  name: AsyncRelayCommand(Func<Task>, Func<bool>)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand__ctor_System_Func_System_Threading_Tasks_Task__System_Func_System_Boolean__
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})
+  name.vb: New(Func(Of Task), Func(Of Boolean))
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.AsyncRelayCommand(System.Func<System.Threading.Tasks.Task>, System.Func<bool>)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand.New(System.Func(Of System.Threading.Tasks.Task), System.Func(Of Boolean))
+  nameWithType: AsyncRelayCommand.AsyncRelayCommand(Func<Task>, Func<bool>)
+  nameWithType.vb: AsyncRelayCommand.New(Func(Of Task), Func(Of Boolean))
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.#ctor*
+  name: AsyncRelayCommand
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand__ctor_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.AsyncRelayCommand
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand.New
+  nameWithType: AsyncRelayCommand.AsyncRelayCommand
+  nameWithType.vb: AsyncRelayCommand.New
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.CanExecute(System.Object)
+  name: CanExecute(object?)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_CanExecute_System_Object_
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand.CanExecute(System.Object)
+  name.vb: CanExecute(Object)
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.CanExecute(object?)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand.CanExecute(Object)
+  nameWithType: AsyncRelayCommand.CanExecute(object?)
+  nameWithType.vb: AsyncRelayCommand.CanExecute(Object)
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.CanExecute*
+  name: CanExecute
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_CanExecute_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand.CanExecute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.CanExecute
+  nameWithType: AsyncRelayCommand.CanExecute
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.CanExecuteChanged
+  name: CanExecuteChanged
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_CanExecuteChanged
+  commentId: E:NucleusWPF.MVVM.AsyncRelayCommand.CanExecuteChanged
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.CanExecuteChanged
+  nameWithType: AsyncRelayCommand.CanExecuteChanged
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.Execute(System.Object)
+  name: Execute(object?)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_Execute_System_Object_
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand.Execute(System.Object)
+  name.vb: Execute(Object)
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.Execute(object?)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand.Execute(Object)
+  nameWithType: AsyncRelayCommand.Execute(object?)
+  nameWithType.vb: AsyncRelayCommand.Execute(Object)
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.Execute*
+  name: Execute
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_Execute_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand.Execute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.Execute
+  nameWithType: AsyncRelayCommand.Execute
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.ExecuteAsync
+  name: ExecuteAsync()
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_ExecuteAsync
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand.ExecuteAsync
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.ExecuteAsync()
+  nameWithType: AsyncRelayCommand.ExecuteAsync()
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_ExecuteAsync_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand.ExecuteAsync
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.ExecuteAsync
+  nameWithType: AsyncRelayCommand.ExecuteAsync
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_RaiseCanExecuteChanged
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand.RaiseCanExecuteChanged
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.RaiseCanExecuteChanged()
+  nameWithType: AsyncRelayCommand.RaiseCanExecuteChanged()
+- uid: NucleusWPF.MVVM.AsyncRelayCommand.RaiseCanExecuteChanged*
+  name: RaiseCanExecuteChanged
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand.html#NucleusWPF_MVVM_AsyncRelayCommand_RaiseCanExecuteChanged_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand.RaiseCanExecuteChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand.RaiseCanExecuteChanged
+  nameWithType: AsyncRelayCommand.RaiseCanExecuteChanged
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1
+  name: AsyncRelayCommand<T>
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html
+  commentId: T:NucleusWPF.MVVM.AsyncRelayCommand`1
+  name.vb: AsyncRelayCommand(Of T)
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T)
+  nameWithType: AsyncRelayCommand<T>
+  nameWithType.vb: AsyncRelayCommand(Of T)
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task})
+  name: AsyncRelayCommand(Func<T, Task>)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1__ctor_System_Func__0_System_Threading_Tasks_Task__
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task})
+  name.vb: New(Func(Of T, Task))
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.AsyncRelayCommand(System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).New(System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: AsyncRelayCommand<T>.AsyncRelayCommand(Func<T, Task>)
+  nameWithType.vb: AsyncRelayCommand(Of T).New(Func(Of T, Task))
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Func{System.Boolean})
+  name: AsyncRelayCommand(Func<T, Task>, Func<bool>)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1__ctor_System_Func__0_System_Threading_Tasks_Task__System_Func_System_Boolean__
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Func{System.Boolean})
+  name.vb: New(Func(Of T, Task), Func(Of Boolean))
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.AsyncRelayCommand(System.Func<T, System.Threading.Tasks.Task>, System.Func<bool>)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).New(System.Func(Of T, System.Threading.Tasks.Task), System.Func(Of Boolean))
+  nameWithType: AsyncRelayCommand<T>.AsyncRelayCommand(Func<T, Task>, Func<bool>)
+  nameWithType.vb: AsyncRelayCommand(Of T).New(Func(Of T, Task), Func(Of Boolean))
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Func{`0,System.Boolean})
+  name: AsyncRelayCommand(Func<T, Task>, Func<T, bool>)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1__ctor_System_Func__0_System_Threading_Tasks_Task__System_Func__0_System_Boolean__
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Func{`0,System.Boolean})
+  name.vb: New(Func(Of T, Task), Func(Of T, Boolean))
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.AsyncRelayCommand(System.Func<T, System.Threading.Tasks.Task>, System.Func<T, bool>)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).New(System.Func(Of T, System.Threading.Tasks.Task), System.Func(Of T, Boolean))
+  nameWithType: AsyncRelayCommand<T>.AsyncRelayCommand(Func<T, Task>, Func<T, bool>)
+  nameWithType.vb: AsyncRelayCommand(Of T).New(Func(Of T, Task), Func(Of T, Boolean))
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor*
+  name: AsyncRelayCommand
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1__ctor_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.AsyncRelayCommand
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).New
+  nameWithType: AsyncRelayCommand<T>.AsyncRelayCommand
+  nameWithType.vb: AsyncRelayCommand(Of T).New
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.CanExecute(System.Object)
+  name: CanExecute(object?)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_CanExecute_System_Object_
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.CanExecute(System.Object)
+  name.vb: CanExecute(Object)
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.CanExecute(object?)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).CanExecute(Object)
+  nameWithType: AsyncRelayCommand<T>.CanExecute(object?)
+  nameWithType.vb: AsyncRelayCommand(Of T).CanExecute(Object)
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.CanExecute*
+  name: CanExecute
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_CanExecute_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand`1.CanExecute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.CanExecute
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).CanExecute
+  nameWithType: AsyncRelayCommand<T>.CanExecute
+  nameWithType.vb: AsyncRelayCommand(Of T).CanExecute
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.CanExecuteChanged
+  name: CanExecuteChanged
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_CanExecuteChanged
+  commentId: E:NucleusWPF.MVVM.AsyncRelayCommand`1.CanExecuteChanged
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.CanExecuteChanged
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).CanExecuteChanged
+  nameWithType: AsyncRelayCommand<T>.CanExecuteChanged
+  nameWithType.vb: AsyncRelayCommand(Of T).CanExecuteChanged
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.Execute(System.Object)
+  name: Execute(object?)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_Execute_System_Object_
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.Execute(System.Object)
+  name.vb: Execute(Object)
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.Execute(object?)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).Execute(Object)
+  nameWithType: AsyncRelayCommand<T>.Execute(object?)
+  nameWithType.vb: AsyncRelayCommand(Of T).Execute(Object)
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.Execute*
+  name: Execute
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_Execute_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand`1.Execute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.Execute
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).Execute
+  nameWithType: AsyncRelayCommand<T>.Execute
+  nameWithType.vb: AsyncRelayCommand(Of T).Execute
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.ExecuteAsync(`0)
+  name: ExecuteAsync(T)
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_ExecuteAsync__0_
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.ExecuteAsync(`0)
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.ExecuteAsync(T)
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).ExecuteAsync(T)
+  nameWithType: AsyncRelayCommand<T>.ExecuteAsync(T)
+  nameWithType.vb: AsyncRelayCommand(Of T).ExecuteAsync(T)
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_ExecuteAsync_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand`1.ExecuteAsync
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.ExecuteAsync
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).ExecuteAsync
+  nameWithType: AsyncRelayCommand<T>.ExecuteAsync
+  nameWithType.vb: AsyncRelayCommand(Of T).ExecuteAsync
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_RaiseCanExecuteChanged
+  commentId: M:NucleusWPF.MVVM.AsyncRelayCommand`1.RaiseCanExecuteChanged
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.RaiseCanExecuteChanged()
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).RaiseCanExecuteChanged()
+  nameWithType: AsyncRelayCommand<T>.RaiseCanExecuteChanged()
+  nameWithType.vb: AsyncRelayCommand(Of T).RaiseCanExecuteChanged()
+- uid: NucleusWPF.MVVM.AsyncRelayCommand`1.RaiseCanExecuteChanged*
+  name: RaiseCanExecuteChanged
+  href: api/NucleusWPF.MVVM.AsyncRelayCommand-1.html#NucleusWPF_MVVM_AsyncRelayCommand_1_RaiseCanExecuteChanged_
+  commentId: Overload:NucleusWPF.MVVM.AsyncRelayCommand`1.RaiseCanExecuteChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.AsyncRelayCommand<T>.RaiseCanExecuteChanged
+  fullName.vb: NucleusWPF.MVVM.AsyncRelayCommand(Of T).RaiseCanExecuteChanged
+  nameWithType: AsyncRelayCommand<T>.RaiseCanExecuteChanged
+  nameWithType.vb: AsyncRelayCommand(Of T).RaiseCanExecuteChanged
+- uid: NucleusWPF.MVVM.DependencyInjection
+  name: DependencyInjection
+  href: api/NucleusWPF.MVVM.DependencyInjection.html
+  commentId: T:NucleusWPF.MVVM.DependencyInjection
+  fullName: NucleusWPF.MVVM.DependencyInjection
+  nameWithType: DependencyInjection
+- uid: NucleusWPF.MVVM.DependencyInjection.Instance
+  name: Instance
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Instance
+  commentId: P:NucleusWPF.MVVM.DependencyInjection.Instance
+  fullName: NucleusWPF.MVVM.DependencyInjection.Instance
+  nameWithType: DependencyInjection.Instance
+- uid: NucleusWPF.MVVM.DependencyInjection.Instance*
+  name: Instance
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Instance_
+  commentId: Overload:NucleusWPF.MVVM.DependencyInjection.Instance
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.DependencyInjection.Instance
+  nameWithType: DependencyInjection.Instance
+- uid: NucleusWPF.MVVM.DependencyInjection.Register*
+  name: Register
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Register_
+  commentId: Overload:NucleusWPF.MVVM.DependencyInjection.Register
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.DependencyInjection.Register
+  nameWithType: DependencyInjection.Register
+- uid: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton*
+  name: RegisterSingleton
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_RegisterSingleton_
+  commentId: Overload:NucleusWPF.MVVM.DependencyInjection.RegisterSingleton
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton
+  nameWithType: DependencyInjection.RegisterSingleton
+- uid: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton``1(``0)
+  name: RegisterSingleton<TInterface>(TInterface)
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_RegisterSingleton__1___0_
+  commentId: M:NucleusWPF.MVVM.DependencyInjection.RegisterSingleton``1(``0)
+  name.vb: RegisterSingleton(Of TInterface)(TInterface)
+  fullName: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton<TInterface>(TInterface)
+  fullName.vb: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton(Of TInterface)(TInterface)
+  nameWithType: DependencyInjection.RegisterSingleton<TInterface>(TInterface)
+  nameWithType.vb: DependencyInjection.RegisterSingleton(Of TInterface)(TInterface)
+- uid: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton``2
+  name: RegisterSingleton<TInterface, TImplementation>()
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_RegisterSingleton__2
+  commentId: M:NucleusWPF.MVVM.DependencyInjection.RegisterSingleton``2
+  name.vb: RegisterSingleton(Of TInterface, TImplementation)()
+  fullName: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton<TInterface, TImplementation>()
+  fullName.vb: NucleusWPF.MVVM.DependencyInjection.RegisterSingleton(Of TInterface, TImplementation)()
+  nameWithType: DependencyInjection.RegisterSingleton<TInterface, TImplementation>()
+  nameWithType.vb: DependencyInjection.RegisterSingleton(Of TInterface, TImplementation)()
+- uid: NucleusWPF.MVVM.DependencyInjection.Register``2
+  name: Register<TInterface, TImplementation>()
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Register__2
+  commentId: M:NucleusWPF.MVVM.DependencyInjection.Register``2
+  name.vb: Register(Of TInterface, TImplementation)()
+  fullName: NucleusWPF.MVVM.DependencyInjection.Register<TInterface, TImplementation>()
+  fullName.vb: NucleusWPF.MVVM.DependencyInjection.Register(Of TInterface, TImplementation)()
+  nameWithType: DependencyInjection.Register<TInterface, TImplementation>()
+  nameWithType.vb: DependencyInjection.Register(Of TInterface, TImplementation)()
+- uid: NucleusWPF.MVVM.DependencyInjection.Resolve*
+  name: Resolve
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Resolve_
+  commentId: Overload:NucleusWPF.MVVM.DependencyInjection.Resolve
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.DependencyInjection.Resolve
+  nameWithType: DependencyInjection.Resolve
+- uid: NucleusWPF.MVVM.DependencyInjection.Resolve``1
+  name: Resolve<TInterface>()
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Resolve__1
+  commentId: M:NucleusWPF.MVVM.DependencyInjection.Resolve``1
+  name.vb: Resolve(Of TInterface)()
+  fullName: NucleusWPF.MVVM.DependencyInjection.Resolve<TInterface>()
+  fullName.vb: NucleusWPF.MVVM.DependencyInjection.Resolve(Of TInterface)()
+  nameWithType: DependencyInjection.Resolve<TInterface>()
+  nameWithType.vb: DependencyInjection.Resolve(Of TInterface)()
+- uid: NucleusWPF.MVVM.IMessageService
+  name: IMessageService
+  href: api/NucleusWPF.MVVM.IMessageService.html
+  commentId: T:NucleusWPF.MVVM.IMessageService
+  fullName: NucleusWPF.MVVM.IMessageService
+  nameWithType: IMessageService
+- uid: NucleusWPF.MVVM.IMessageService.Show(System.Exception)
+  name: Show(Exception)
+  href: api/NucleusWPF.MVVM.IMessageService.html#NucleusWPF_MVVM_IMessageService_Show_System_Exception_
+  commentId: M:NucleusWPF.MVVM.IMessageService.Show(System.Exception)
+  fullName: NucleusWPF.MVVM.IMessageService.Show(System.Exception)
+  nameWithType: IMessageService.Show(Exception)
+- uid: NucleusWPF.MVVM.IMessageService.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)
+  name: Show(string, string, MessageBoxButton, MessageBoxImage)
+  href: api/NucleusWPF.MVVM.IMessageService.html#NucleusWPF_MVVM_IMessageService_Show_System_String_System_String_System_Windows_MessageBoxButton_System_Windows_MessageBoxImage_
+  commentId: M:NucleusWPF.MVVM.IMessageService.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)
+  name.vb: Show(String, String, MessageBoxButton, MessageBoxImage)
+  fullName: NucleusWPF.MVVM.IMessageService.Show(string, string, System.Windows.MessageBoxButton, System.Windows.MessageBoxImage)
+  fullName.vb: NucleusWPF.MVVM.IMessageService.Show(String, String, System.Windows.MessageBoxButton, System.Windows.MessageBoxImage)
+  nameWithType: IMessageService.Show(string, string, MessageBoxButton, MessageBoxImage)
+  nameWithType.vb: IMessageService.Show(String, String, MessageBoxButton, MessageBoxImage)
+- uid: NucleusWPF.MVVM.IMessageService.Show*
+  name: Show
+  href: api/NucleusWPF.MVVM.IMessageService.html#NucleusWPF_MVVM_IMessageService_Show_
+  commentId: Overload:NucleusWPF.MVVM.IMessageService.Show
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.IMessageService.Show
+  nameWithType: IMessageService.Show
+- uid: NucleusWPF.MVVM.IRelayCommand
+  name: IRelayCommand
+  href: api/NucleusWPF.MVVM.IRelayCommand.html
+  commentId: T:NucleusWPF.MVVM.IRelayCommand
+  fullName: NucleusWPF.MVVM.IRelayCommand
+  nameWithType: IRelayCommand
+- uid: NucleusWPF.MVVM.IRelayCommand.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  href: api/NucleusWPF.MVVM.IRelayCommand.html#NucleusWPF_MVVM_IRelayCommand_RaiseCanExecuteChanged
+  commentId: M:NucleusWPF.MVVM.IRelayCommand.RaiseCanExecuteChanged
+  fullName: NucleusWPF.MVVM.IRelayCommand.RaiseCanExecuteChanged()
+  nameWithType: IRelayCommand.RaiseCanExecuteChanged()
+- uid: NucleusWPF.MVVM.IRelayCommand.RaiseCanExecuteChanged*
+  name: RaiseCanExecuteChanged
+  href: api/NucleusWPF.MVVM.IRelayCommand.html#NucleusWPF_MVVM_IRelayCommand_RaiseCanExecuteChanged_
+  commentId: Overload:NucleusWPF.MVVM.IRelayCommand.RaiseCanExecuteChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.IRelayCommand.RaiseCanExecuteChanged
+  nameWithType: IRelayCommand.RaiseCanExecuteChanged
+- uid: NucleusWPF.MVVM.IWindowService
+  name: IWindowService
+  href: api/NucleusWPF.MVVM.IWindowService.html
+  commentId: T:NucleusWPF.MVVM.IWindowService
+  fullName: NucleusWPF.MVVM.IWindowService
+  nameWithType: IWindowService
+- uid: NucleusWPF.MVVM.IWindowService.DefaultViewSuffix
+  name: DefaultViewSuffix
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_DefaultViewSuffix
+  commentId: P:NucleusWPF.MVVM.IWindowService.DefaultViewSuffix
+  fullName: NucleusWPF.MVVM.IWindowService.DefaultViewSuffix
+  nameWithType: IWindowService.DefaultViewSuffix
+- uid: NucleusWPF.MVVM.IWindowService.DefaultViewSuffix*
+  name: DefaultViewSuffix
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_DefaultViewSuffix_
+  commentId: Overload:NucleusWPF.MVVM.IWindowService.DefaultViewSuffix
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.IWindowService.DefaultViewSuffix
+  nameWithType: IWindowService.DefaultViewSuffix
+- uid: NucleusWPF.MVVM.IWindowService.Register*
+  name: Register
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_Register_
+  commentId: Overload:NucleusWPF.MVVM.IWindowService.Register
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.IWindowService.Register
+  nameWithType: IWindowService.Register
+- uid: NucleusWPF.MVVM.IWindowService.Register``2
+  name: Register<TViewModel, TWindow>()
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_Register__2
+  commentId: M:NucleusWPF.MVVM.IWindowService.Register``2
+  name.vb: Register(Of TViewModel, TWindow)()
+  fullName: NucleusWPF.MVVM.IWindowService.Register<TViewModel, TWindow>()
+  fullName.vb: NucleusWPF.MVVM.IWindowService.Register(Of TViewModel, TWindow)()
+  nameWithType: IWindowService.Register<TViewModel, TWindow>()
+  nameWithType.vb: IWindowService.Register(Of TViewModel, TWindow)()
+- uid: NucleusWPF.MVVM.IWindowService.Show(System.Object,System.String)
+  name: Show(object, string?)
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_Show_System_Object_System_String_
+  commentId: M:NucleusWPF.MVVM.IWindowService.Show(System.Object,System.String)
+  name.vb: Show(Object, String)
+  fullName: NucleusWPF.MVVM.IWindowService.Show(object, string?)
+  fullName.vb: NucleusWPF.MVVM.IWindowService.Show(Object, String)
+  nameWithType: IWindowService.Show(object, string?)
+  nameWithType.vb: IWindowService.Show(Object, String)
+- uid: NucleusWPF.MVVM.IWindowService.Show*
+  name: Show
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_Show_
+  commentId: Overload:NucleusWPF.MVVM.IWindowService.Show
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.IWindowService.Show
+  nameWithType: IWindowService.Show
+- uid: NucleusWPF.MVVM.IWindowService.ShowDialog(System.Object,System.String)
+  name: ShowDialog(object, string?)
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_ShowDialog_System_Object_System_String_
+  commentId: M:NucleusWPF.MVVM.IWindowService.ShowDialog(System.Object,System.String)
+  name.vb: ShowDialog(Object, String)
+  fullName: NucleusWPF.MVVM.IWindowService.ShowDialog(object, string?)
+  fullName.vb: NucleusWPF.MVVM.IWindowService.ShowDialog(Object, String)
+  nameWithType: IWindowService.ShowDialog(object, string?)
+  nameWithType.vb: IWindowService.ShowDialog(Object, String)
+- uid: NucleusWPF.MVVM.IWindowService.ShowDialog*
+  name: ShowDialog
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_ShowDialog_
+  commentId: Overload:NucleusWPF.MVVM.IWindowService.ShowDialog
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.IWindowService.ShowDialog
+  nameWithType: IWindowService.ShowDialog
+- uid: NucleusWPF.MVVM.IWindowService.ShowDialog``1(System.String)
+  name: ShowDialog<TViewModel>(string?)
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_ShowDialog__1_System_String_
+  commentId: M:NucleusWPF.MVVM.IWindowService.ShowDialog``1(System.String)
+  name.vb: ShowDialog(Of TViewModel)(String)
+  fullName: NucleusWPF.MVVM.IWindowService.ShowDialog<TViewModel>(string?)
+  fullName.vb: NucleusWPF.MVVM.IWindowService.ShowDialog(Of TViewModel)(String)
+  nameWithType: IWindowService.ShowDialog<TViewModel>(string?)
+  nameWithType.vb: IWindowService.ShowDialog(Of TViewModel)(String)
+- uid: NucleusWPF.MVVM.IWindowService.Show``1(System.String)
+  name: Show<TViewModel>(string?)
+  href: api/NucleusWPF.MVVM.IWindowService.html#NucleusWPF_MVVM_IWindowService_Show__1_System_String_
+  commentId: M:NucleusWPF.MVVM.IWindowService.Show``1(System.String)
+  name.vb: Show(Of TViewModel)(String)
+  fullName: NucleusWPF.MVVM.IWindowService.Show<TViewModel>(string?)
+  fullName.vb: NucleusWPF.MVVM.IWindowService.Show(Of TViewModel)(String)
+  nameWithType: IWindowService.Show<TViewModel>(string?)
+  nameWithType.vb: IWindowService.Show(Of TViewModel)(String)
+- uid: NucleusWPF.MVVM.MessageService
+  name: MessageService
+  href: api/NucleusWPF.MVVM.MessageService.html
+  commentId: T:NucleusWPF.MVVM.MessageService
+  fullName: NucleusWPF.MVVM.MessageService
+  nameWithType: MessageService
+- uid: NucleusWPF.MVVM.MessageService.Show(System.Exception)
+  name: Show(Exception)
+  href: api/NucleusWPF.MVVM.MessageService.html#NucleusWPF_MVVM_MessageService_Show_System_Exception_
+  commentId: M:NucleusWPF.MVVM.MessageService.Show(System.Exception)
+  fullName: NucleusWPF.MVVM.MessageService.Show(System.Exception)
+  nameWithType: MessageService.Show(Exception)
+- uid: NucleusWPF.MVVM.MessageService.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)
+  name: Show(string, string, MessageBoxButton, MessageBoxImage)
+  href: api/NucleusWPF.MVVM.MessageService.html#NucleusWPF_MVVM_MessageService_Show_System_String_System_String_System_Windows_MessageBoxButton_System_Windows_MessageBoxImage_
+  commentId: M:NucleusWPF.MVVM.MessageService.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)
+  name.vb: Show(String, String, MessageBoxButton, MessageBoxImage)
+  fullName: NucleusWPF.MVVM.MessageService.Show(string, string, System.Windows.MessageBoxButton, System.Windows.MessageBoxImage)
+  fullName.vb: NucleusWPF.MVVM.MessageService.Show(String, String, System.Windows.MessageBoxButton, System.Windows.MessageBoxImage)
+  nameWithType: MessageService.Show(string, string, MessageBoxButton, MessageBoxImage)
+  nameWithType.vb: MessageService.Show(String, String, MessageBoxButton, MessageBoxImage)
+- uid: NucleusWPF.MVVM.MessageService.Show*
+  name: Show
+  href: api/NucleusWPF.MVVM.MessageService.html#NucleusWPF_MVVM_MessageService_Show_
+  commentId: Overload:NucleusWPF.MVVM.MessageService.Show
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.MessageService.Show
+  nameWithType: MessageService.Show
+- uid: NucleusWPF.MVVM.RelayCommand
+  name: RelayCommand
+  href: api/NucleusWPF.MVVM.RelayCommand.html
+  commentId: T:NucleusWPF.MVVM.RelayCommand
+  fullName: NucleusWPF.MVVM.RelayCommand
+  nameWithType: RelayCommand
+- uid: NucleusWPF.MVVM.RelayCommand.#ctor(System.Action)
+  name: RelayCommand(Action)
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand__ctor_System_Action_
+  commentId: M:NucleusWPF.MVVM.RelayCommand.#ctor(System.Action)
+  name.vb: New(Action)
+  fullName: NucleusWPF.MVVM.RelayCommand.RelayCommand(System.Action)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand.New(System.Action)
+  nameWithType: RelayCommand.RelayCommand(Action)
+  nameWithType.vb: RelayCommand.New(Action)
+- uid: NucleusWPF.MVVM.RelayCommand.#ctor(System.Action,System.Func{System.Boolean})
+  name: RelayCommand(Action, Func<bool>)
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand__ctor_System_Action_System_Func_System_Boolean__
+  commentId: M:NucleusWPF.MVVM.RelayCommand.#ctor(System.Action,System.Func{System.Boolean})
+  name.vb: New(Action, Func(Of Boolean))
+  fullName: NucleusWPF.MVVM.RelayCommand.RelayCommand(System.Action, System.Func<bool>)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand.New(System.Action, System.Func(Of Boolean))
+  nameWithType: RelayCommand.RelayCommand(Action, Func<bool>)
+  nameWithType.vb: RelayCommand.New(Action, Func(Of Boolean))
+- uid: NucleusWPF.MVVM.RelayCommand.#ctor*
+  name: RelayCommand
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand__ctor_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NucleusWPF.MVVM.RelayCommand.RelayCommand
+  fullName.vb: NucleusWPF.MVVM.RelayCommand.New
+  nameWithType: RelayCommand.RelayCommand
+  nameWithType.vb: RelayCommand.New
+- uid: NucleusWPF.MVVM.RelayCommand.CanExecute(System.Object)
+  name: CanExecute(object?)
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_CanExecute_System_Object_
+  commentId: M:NucleusWPF.MVVM.RelayCommand.CanExecute(System.Object)
+  name.vb: CanExecute(Object)
+  fullName: NucleusWPF.MVVM.RelayCommand.CanExecute(object?)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand.CanExecute(Object)
+  nameWithType: RelayCommand.CanExecute(object?)
+  nameWithType.vb: RelayCommand.CanExecute(Object)
+- uid: NucleusWPF.MVVM.RelayCommand.CanExecute*
+  name: CanExecute
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_CanExecute_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand.CanExecute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.RelayCommand.CanExecute
+  nameWithType: RelayCommand.CanExecute
+- uid: NucleusWPF.MVVM.RelayCommand.CanExecuteChanged
+  name: CanExecuteChanged
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_CanExecuteChanged
+  commentId: E:NucleusWPF.MVVM.RelayCommand.CanExecuteChanged
+  fullName: NucleusWPF.MVVM.RelayCommand.CanExecuteChanged
+  nameWithType: RelayCommand.CanExecuteChanged
+- uid: NucleusWPF.MVVM.RelayCommand.Execute(System.Object)
+  name: Execute(object?)
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_Execute_System_Object_
+  commentId: M:NucleusWPF.MVVM.RelayCommand.Execute(System.Object)
+  name.vb: Execute(Object)
+  fullName: NucleusWPF.MVVM.RelayCommand.Execute(object?)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand.Execute(Object)
+  nameWithType: RelayCommand.Execute(object?)
+  nameWithType.vb: RelayCommand.Execute(Object)
+- uid: NucleusWPF.MVVM.RelayCommand.Execute*
+  name: Execute
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_Execute_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand.Execute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.RelayCommand.Execute
+  nameWithType: RelayCommand.Execute
+- uid: NucleusWPF.MVVM.RelayCommand.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_RaiseCanExecuteChanged
+  commentId: M:NucleusWPF.MVVM.RelayCommand.RaiseCanExecuteChanged
+  fullName: NucleusWPF.MVVM.RelayCommand.RaiseCanExecuteChanged()
+  nameWithType: RelayCommand.RaiseCanExecuteChanged()
+- uid: NucleusWPF.MVVM.RelayCommand.RaiseCanExecuteChanged*
+  name: RaiseCanExecuteChanged
+  href: api/NucleusWPF.MVVM.RelayCommand.html#NucleusWPF_MVVM_RelayCommand_RaiseCanExecuteChanged_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand.RaiseCanExecuteChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.RelayCommand.RaiseCanExecuteChanged
+  nameWithType: RelayCommand.RaiseCanExecuteChanged
+- uid: NucleusWPF.MVVM.RelayCommand`1
+  name: RelayCommand<T>
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html
+  commentId: T:NucleusWPF.MVVM.RelayCommand`1
+  name.vb: RelayCommand(Of T)
+  fullName: NucleusWPF.MVVM.RelayCommand<T>
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T)
+  nameWithType: RelayCommand<T>
+  nameWithType.vb: RelayCommand(Of T)
+- uid: NucleusWPF.MVVM.RelayCommand`1.#ctor(System.Action{`0})
+  name: RelayCommand(Action<T>)
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1__ctor_System_Action__0__
+  commentId: M:NucleusWPF.MVVM.RelayCommand`1.#ctor(System.Action{`0})
+  name.vb: New(Action(Of T))
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.RelayCommand(System.Action<T>)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).New(System.Action(Of T))
+  nameWithType: RelayCommand<T>.RelayCommand(Action<T>)
+  nameWithType.vb: RelayCommand(Of T).New(Action(Of T))
+- uid: NucleusWPF.MVVM.RelayCommand`1.#ctor(System.Action{`0},System.Func{System.Boolean})
+  name: RelayCommand(Action<T>, Func<bool>)
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1__ctor_System_Action__0__System_Func_System_Boolean__
+  commentId: M:NucleusWPF.MVVM.RelayCommand`1.#ctor(System.Action{`0},System.Func{System.Boolean})
+  name.vb: New(Action(Of T), Func(Of Boolean))
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.RelayCommand(System.Action<T>, System.Func<bool>)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).New(System.Action(Of T), System.Func(Of Boolean))
+  nameWithType: RelayCommand<T>.RelayCommand(Action<T>, Func<bool>)
+  nameWithType.vb: RelayCommand(Of T).New(Action(Of T), Func(Of Boolean))
+- uid: NucleusWPF.MVVM.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})
+  name: RelayCommand(Action<T>, Func<T, bool>)
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1__ctor_System_Action__0__System_Func__0_System_Boolean__
+  commentId: M:NucleusWPF.MVVM.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})
+  name.vb: New(Action(Of T), Func(Of T, Boolean))
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.RelayCommand(System.Action<T>, System.Func<T, bool>)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).New(System.Action(Of T), System.Func(Of T, Boolean))
+  nameWithType: RelayCommand<T>.RelayCommand(Action<T>, Func<T, bool>)
+  nameWithType.vb: RelayCommand(Of T).New(Action(Of T), Func(Of T, Boolean))
+- uid: NucleusWPF.MVVM.RelayCommand`1.#ctor*
+  name: RelayCommand
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1__ctor_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.RelayCommand
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).New
+  nameWithType: RelayCommand<T>.RelayCommand
+  nameWithType.vb: RelayCommand(Of T).New
+- uid: NucleusWPF.MVVM.RelayCommand`1.CanExecute(System.Object)
+  name: CanExecute(object?)
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_CanExecute_System_Object_
+  commentId: M:NucleusWPF.MVVM.RelayCommand`1.CanExecute(System.Object)
+  name.vb: CanExecute(Object)
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.CanExecute(object?)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).CanExecute(Object)
+  nameWithType: RelayCommand<T>.CanExecute(object?)
+  nameWithType.vb: RelayCommand(Of T).CanExecute(Object)
+- uid: NucleusWPF.MVVM.RelayCommand`1.CanExecute*
+  name: CanExecute
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_CanExecute_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand`1.CanExecute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.CanExecute
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).CanExecute
+  nameWithType: RelayCommand<T>.CanExecute
+  nameWithType.vb: RelayCommand(Of T).CanExecute
+- uid: NucleusWPF.MVVM.RelayCommand`1.CanExecuteChanged
+  name: CanExecuteChanged
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_CanExecuteChanged
+  commentId: E:NucleusWPF.MVVM.RelayCommand`1.CanExecuteChanged
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.CanExecuteChanged
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).CanExecuteChanged
+  nameWithType: RelayCommand<T>.CanExecuteChanged
+  nameWithType.vb: RelayCommand(Of T).CanExecuteChanged
+- uid: NucleusWPF.MVVM.RelayCommand`1.Execute(System.Object)
+  name: Execute(object?)
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_Execute_System_Object_
+  commentId: M:NucleusWPF.MVVM.RelayCommand`1.Execute(System.Object)
+  name.vb: Execute(Object)
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.Execute(object?)
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).Execute(Object)
+  nameWithType: RelayCommand<T>.Execute(object?)
+  nameWithType.vb: RelayCommand(Of T).Execute(Object)
+- uid: NucleusWPF.MVVM.RelayCommand`1.Execute*
+  name: Execute
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_Execute_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand`1.Execute
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.Execute
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).Execute
+  nameWithType: RelayCommand<T>.Execute
+  nameWithType.vb: RelayCommand(Of T).Execute
+- uid: NucleusWPF.MVVM.RelayCommand`1.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_RaiseCanExecuteChanged
+  commentId: M:NucleusWPF.MVVM.RelayCommand`1.RaiseCanExecuteChanged
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.RaiseCanExecuteChanged()
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).RaiseCanExecuteChanged()
+  nameWithType: RelayCommand<T>.RaiseCanExecuteChanged()
+  nameWithType.vb: RelayCommand(Of T).RaiseCanExecuteChanged()
+- uid: NucleusWPF.MVVM.RelayCommand`1.RaiseCanExecuteChanged*
+  name: RaiseCanExecuteChanged
+  href: api/NucleusWPF.MVVM.RelayCommand-1.html#NucleusWPF_MVVM_RelayCommand_1_RaiseCanExecuteChanged_
+  commentId: Overload:NucleusWPF.MVVM.RelayCommand`1.RaiseCanExecuteChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.RelayCommand<T>.RaiseCanExecuteChanged
+  fullName.vb: NucleusWPF.MVVM.RelayCommand(Of T).RaiseCanExecuteChanged
+  nameWithType: RelayCommand<T>.RaiseCanExecuteChanged
+  nameWithType.vb: RelayCommand(Of T).RaiseCanExecuteChanged
+- uid: NucleusWPF.MVVM.ValidViewModel
+  name: ValidViewModel
+  href: api/NucleusWPF.MVVM.ValidViewModel.html
+  commentId: T:NucleusWPF.MVVM.ValidViewModel
+  fullName: NucleusWPF.MVVM.ValidViewModel
+  nameWithType: ValidViewModel
+- uid: NucleusWPF.MVVM.ValidViewModel.AddError(System.String,System.String)
+  name: AddError(string, string?)
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_AddError_System_String_System_String_
+  commentId: M:NucleusWPF.MVVM.ValidViewModel.AddError(System.String,System.String)
+  name.vb: AddError(String, String)
+  fullName: NucleusWPF.MVVM.ValidViewModel.AddError(string, string?)
+  fullName.vb: NucleusWPF.MVVM.ValidViewModel.AddError(String, String)
+  nameWithType: ValidViewModel.AddError(string, string?)
+  nameWithType.vb: ValidViewModel.AddError(String, String)
+- uid: NucleusWPF.MVVM.ValidViewModel.AddError*
+  name: AddError
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_AddError_
+  commentId: Overload:NucleusWPF.MVVM.ValidViewModel.AddError
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ValidViewModel.AddError
+  nameWithType: ValidViewModel.AddError
+- uid: NucleusWPF.MVVM.ValidViewModel.ClearErrors(System.String)
+  name: ClearErrors(string?)
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_ClearErrors_System_String_
+  commentId: M:NucleusWPF.MVVM.ValidViewModel.ClearErrors(System.String)
+  name.vb: ClearErrors(String)
+  fullName: NucleusWPF.MVVM.ValidViewModel.ClearErrors(string?)
+  fullName.vb: NucleusWPF.MVVM.ValidViewModel.ClearErrors(String)
+  nameWithType: ValidViewModel.ClearErrors(string?)
+  nameWithType.vb: ValidViewModel.ClearErrors(String)
+- uid: NucleusWPF.MVVM.ValidViewModel.ClearErrors*
+  name: ClearErrors
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_ClearErrors_
+  commentId: Overload:NucleusWPF.MVVM.ValidViewModel.ClearErrors
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ValidViewModel.ClearErrors
+  nameWithType: ValidViewModel.ClearErrors
+- uid: NucleusWPF.MVVM.ValidViewModel.ErrorsChanged
+  name: ErrorsChanged
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_ErrorsChanged
+  commentId: E:NucleusWPF.MVVM.ValidViewModel.ErrorsChanged
+  fullName: NucleusWPF.MVVM.ValidViewModel.ErrorsChanged
+  nameWithType: ValidViewModel.ErrorsChanged
+- uid: NucleusWPF.MVVM.ValidViewModel.GetErrors(System.String)
+  name: GetErrors(string?)
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_GetErrors_System_String_
+  commentId: M:NucleusWPF.MVVM.ValidViewModel.GetErrors(System.String)
+  name.vb: GetErrors(String)
+  fullName: NucleusWPF.MVVM.ValidViewModel.GetErrors(string?)
+  fullName.vb: NucleusWPF.MVVM.ValidViewModel.GetErrors(String)
+  nameWithType: ValidViewModel.GetErrors(string?)
+  nameWithType.vb: ValidViewModel.GetErrors(String)
+- uid: NucleusWPF.MVVM.ValidViewModel.GetErrors*
+  name: GetErrors
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_GetErrors_
+  commentId: Overload:NucleusWPF.MVVM.ValidViewModel.GetErrors
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ValidViewModel.GetErrors
+  nameWithType: ValidViewModel.GetErrors
+- uid: NucleusWPF.MVVM.ValidViewModel.HasErrors
+  name: HasErrors
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_HasErrors
+  commentId: P:NucleusWPF.MVVM.ValidViewModel.HasErrors
+  fullName: NucleusWPF.MVVM.ValidViewModel.HasErrors
+  nameWithType: ValidViewModel.HasErrors
+- uid: NucleusWPF.MVVM.ValidViewModel.HasErrors*
+  name: HasErrors
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_HasErrors_
+  commentId: Overload:NucleusWPF.MVVM.ValidViewModel.HasErrors
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ValidViewModel.HasErrors
+  nameWithType: ValidViewModel.HasErrors
+- uid: NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged(System.String)
+  name: RaiseErrorsChanged(string?)
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_RaiseErrorsChanged_System_String_
+  commentId: M:NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged(System.String)
+  name.vb: RaiseErrorsChanged(String)
+  fullName: NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged(string?)
+  fullName.vb: NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged(String)
+  nameWithType: ValidViewModel.RaiseErrorsChanged(string?)
+  nameWithType.vb: ValidViewModel.RaiseErrorsChanged(String)
+- uid: NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged*
+  name: RaiseErrorsChanged
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_RaiseErrorsChanged_
+  commentId: Overload:NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ValidViewModel.RaiseErrorsChanged
+  nameWithType: ValidViewModel.RaiseErrorsChanged
+- uid: NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged*
+  name: RaseAndValidateIfChanged
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_RaseAndValidateIfChanged_
+  commentId: Overload:NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged
+  nameWithType: ValidViewModel.RaseAndValidateIfChanged
+- uid: NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged``1(``0@,``0,System.Action{``0,System.String},System.String)
+  name: RaseAndValidateIfChanged<T>(ref T, T, Action<T, string?>, string?)
+  href: api/NucleusWPF.MVVM.ValidViewModel.html#NucleusWPF_MVVM_ValidViewModel_RaseAndValidateIfChanged__1___0____0_System_Action___0_System_String__System_String_
+  commentId: M:NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged``1(``0@,``0,System.Action{``0,System.String},System.String)
+  name.vb: RaseAndValidateIfChanged(Of T)(T, T, Action(Of T, String), String)
+  fullName: NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged<T>(ref T, T, System.Action<T, string?>, string?)
+  fullName.vb: NucleusWPF.MVVM.ValidViewModel.RaseAndValidateIfChanged(Of T)(T, T, System.Action(Of T, String), String)
+  nameWithType: ValidViewModel.RaseAndValidateIfChanged<T>(ref T, T, Action<T, string?>, string?)
+  nameWithType.vb: ValidViewModel.RaseAndValidateIfChanged(Of T)(T, T, Action(Of T, String), String)
+- uid: NucleusWPF.MVVM.ViewModelBase
+  name: ViewModelBase
+  href: api/NucleusWPF.MVVM.ViewModelBase.html
+  commentId: T:NucleusWPF.MVVM.ViewModelBase
+  fullName: NucleusWPF.MVVM.ViewModelBase
+  nameWithType: ViewModelBase
+- uid: NucleusWPF.MVVM.ViewModelBase.PropertyChanged
+  name: PropertyChanged
+  href: api/NucleusWPF.MVVM.ViewModelBase.html#NucleusWPF_MVVM_ViewModelBase_PropertyChanged
+  commentId: E:NucleusWPF.MVVM.ViewModelBase.PropertyChanged
+  fullName: NucleusWPF.MVVM.ViewModelBase.PropertyChanged
+  nameWithType: ViewModelBase.PropertyChanged
+- uid: NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged*
+  name: RaiseAndSetIfChanged
+  href: api/NucleusWPF.MVVM.ViewModelBase.html#NucleusWPF_MVVM_ViewModelBase_RaiseAndSetIfChanged_
+  commentId: Overload:NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged
+  nameWithType: ViewModelBase.RaiseAndSetIfChanged
+- uid: NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged``1(``0@,``0,System.String)
+  name: RaiseAndSetIfChanged<T>(ref T, T, string?)
+  href: api/NucleusWPF.MVVM.ViewModelBase.html#NucleusWPF_MVVM_ViewModelBase_RaiseAndSetIfChanged__1___0____0_System_String_
+  commentId: M:NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged``1(``0@,``0,System.String)
+  name.vb: RaiseAndSetIfChanged(Of T)(T, T, String)
+  fullName: NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged<T>(ref T, T, string?)
+  fullName.vb: NucleusWPF.MVVM.ViewModelBase.RaiseAndSetIfChanged(Of T)(T, T, String)
+  nameWithType: ViewModelBase.RaiseAndSetIfChanged<T>(ref T, T, string?)
+  nameWithType.vb: ViewModelBase.RaiseAndSetIfChanged(Of T)(T, T, String)
+- uid: NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged(System.String)
+  name: RaisePropertyChanged(string?)
+  href: api/NucleusWPF.MVVM.ViewModelBase.html#NucleusWPF_MVVM_ViewModelBase_RaisePropertyChanged_System_String_
+  commentId: M:NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged(System.String)
+  name.vb: RaisePropertyChanged(String)
+  fullName: NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged(string?)
+  fullName.vb: NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged(String)
+  nameWithType: ViewModelBase.RaisePropertyChanged(string?)
+  nameWithType.vb: ViewModelBase.RaisePropertyChanged(String)
+- uid: NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged*
+  name: RaisePropertyChanged
+  href: api/NucleusWPF.MVVM.ViewModelBase.html#NucleusWPF_MVVM_ViewModelBase_RaisePropertyChanged_
+  commentId: Overload:NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.ViewModelBase.RaisePropertyChanged
+  nameWithType: ViewModelBase.RaisePropertyChanged
+- uid: NucleusWPF.MVVM.WindowService
+  name: WindowService
+  href: api/NucleusWPF.MVVM.WindowService.html
+  commentId: T:NucleusWPF.MVVM.WindowService
+  fullName: NucleusWPF.MVVM.WindowService
+  nameWithType: WindowService
+- uid: NucleusWPF.MVVM.WindowService.DefaultViewSuffix
+  name: DefaultViewSuffix
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_DefaultViewSuffix
+  commentId: P:NucleusWPF.MVVM.WindowService.DefaultViewSuffix
+  fullName: NucleusWPF.MVVM.WindowService.DefaultViewSuffix
+  nameWithType: WindowService.DefaultViewSuffix
+- uid: NucleusWPF.MVVM.WindowService.DefaultViewSuffix*
+  name: DefaultViewSuffix
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_DefaultViewSuffix_
+  commentId: Overload:NucleusWPF.MVVM.WindowService.DefaultViewSuffix
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.WindowService.DefaultViewSuffix
+  nameWithType: WindowService.DefaultViewSuffix
+- uid: NucleusWPF.MVVM.WindowService.Instance
+  name: Instance
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Instance
+  commentId: P:NucleusWPF.MVVM.WindowService.Instance
+  fullName: NucleusWPF.MVVM.WindowService.Instance
+  nameWithType: WindowService.Instance
+- uid: NucleusWPF.MVVM.WindowService.Instance*
+  name: Instance
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Instance_
+  commentId: Overload:NucleusWPF.MVVM.WindowService.Instance
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.WindowService.Instance
+  nameWithType: WindowService.Instance
+- uid: NucleusWPF.MVVM.WindowService.Register*
+  name: Register
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Register_
+  commentId: Overload:NucleusWPF.MVVM.WindowService.Register
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.WindowService.Register
+  nameWithType: WindowService.Register
+- uid: NucleusWPF.MVVM.WindowService.Register``2
+  name: Register<TViewModel, TWindow>()
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Register__2
+  commentId: M:NucleusWPF.MVVM.WindowService.Register``2
+  name.vb: Register(Of TViewModel, TWindow)()
+  fullName: NucleusWPF.MVVM.WindowService.Register<TViewModel, TWindow>()
+  fullName.vb: NucleusWPF.MVVM.WindowService.Register(Of TViewModel, TWindow)()
+  nameWithType: WindowService.Register<TViewModel, TWindow>()
+  nameWithType.vb: WindowService.Register(Of TViewModel, TWindow)()
+- uid: NucleusWPF.MVVM.WindowService.Show(System.Object,System.String)
+  name: Show(object, string?)
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Show_System_Object_System_String_
+  commentId: M:NucleusWPF.MVVM.WindowService.Show(System.Object,System.String)
+  name.vb: Show(Object, String)
+  fullName: NucleusWPF.MVVM.WindowService.Show(object, string?)
+  fullName.vb: NucleusWPF.MVVM.WindowService.Show(Object, String)
+  nameWithType: WindowService.Show(object, string?)
+  nameWithType.vb: WindowService.Show(Object, String)
+- uid: NucleusWPF.MVVM.WindowService.Show*
+  name: Show
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Show_
+  commentId: Overload:NucleusWPF.MVVM.WindowService.Show
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.WindowService.Show
+  nameWithType: WindowService.Show
+- uid: NucleusWPF.MVVM.WindowService.ShowDialog(System.Object,System.String)
+  name: ShowDialog(object, string?)
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_ShowDialog_System_Object_System_String_
+  commentId: M:NucleusWPF.MVVM.WindowService.ShowDialog(System.Object,System.String)
+  name.vb: ShowDialog(Object, String)
+  fullName: NucleusWPF.MVVM.WindowService.ShowDialog(object, string?)
+  fullName.vb: NucleusWPF.MVVM.WindowService.ShowDialog(Object, String)
+  nameWithType: WindowService.ShowDialog(object, string?)
+  nameWithType.vb: WindowService.ShowDialog(Object, String)
+- uid: NucleusWPF.MVVM.WindowService.ShowDialog*
+  name: ShowDialog
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_ShowDialog_
+  commentId: Overload:NucleusWPF.MVVM.WindowService.ShowDialog
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.WindowService.ShowDialog
+  nameWithType: WindowService.ShowDialog
+- uid: NucleusWPF.MVVM.WindowService.ShowDialog``1(System.String)
+  name: ShowDialog<TViewModel>(string?)
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_ShowDialog__1_System_String_
+  commentId: M:NucleusWPF.MVVM.WindowService.ShowDialog``1(System.String)
+  name.vb: ShowDialog(Of TViewModel)(String)
+  fullName: NucleusWPF.MVVM.WindowService.ShowDialog<TViewModel>(string?)
+  fullName.vb: NucleusWPF.MVVM.WindowService.ShowDialog(Of TViewModel)(String)
+  nameWithType: WindowService.ShowDialog<TViewModel>(string?)
+  nameWithType.vb: WindowService.ShowDialog(Of TViewModel)(String)
+- uid: NucleusWPF.MVVM.WindowService.Show``1(System.String)
+  name: Show<TViewModel>(string?)
+  href: api/NucleusWPF.MVVM.WindowService.html#NucleusWPF_MVVM_WindowService_Show__1_System_String_
+  commentId: M:NucleusWPF.MVVM.WindowService.Show``1(System.String)
+  name.vb: Show(Of TViewModel)(String)
+  fullName: NucleusWPF.MVVM.WindowService.Show<TViewModel>(string?)
+  fullName.vb: NucleusWPF.MVVM.WindowService.Show(Of TViewModel)(String)
+  nameWithType: WindowService.Show<TViewModel>(string?)
+  nameWithType.vb: WindowService.Show(Of TViewModel)(String)
