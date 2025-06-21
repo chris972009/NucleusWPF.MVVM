@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using System.Windows;
+﻿using System.Windows;
 
 namespace NucleusWPF.MVVM
 {
@@ -9,11 +8,6 @@ namespace NucleusWPF.MVVM
     /// </summary>
     public class WindowService : IWindowService
     {
-        private WindowService()
-        {
-
-        }
-
         private static IWindowService? _instance;
 
         /// <inheritdoc/>
@@ -77,7 +71,7 @@ namespace NucleusWPF.MVVM
             window.DataContext = viewModel;
             return window;
         }
-        
+
         private Window GetWindow(object viewModel, string? suffix = null)
         {
             //get ViewModel type and check for explicit mapping

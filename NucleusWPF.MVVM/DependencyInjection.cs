@@ -63,6 +63,17 @@
         public TInterface Resolve<TInterface>() =>
             (TInterface)Resolve(typeof(TInterface));
 
+        /// <summary>
+        /// Reset all registered services and models.
+        /// </summary>
+        public void Clear()
+        {
+            _interfacesMap.Clear();
+            Register<IMessageService, MessageService>();
+            _singletonsMap.Clear();
+            RegisterSingleton(WindowService.Instance);
+        }
+
         private object Resolve(Type type)
         {
             // Check for singleton
