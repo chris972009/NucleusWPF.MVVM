@@ -235,6 +235,19 @@ references:
   commentId: T:NucleusWPF.MVVM.DependencyInjection
   fullName: NucleusWPF.MVVM.DependencyInjection
   nameWithType: DependencyInjection
+- uid: NucleusWPF.MVVM.DependencyInjection.Clear
+  name: Clear()
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Clear
+  commentId: M:NucleusWPF.MVVM.DependencyInjection.Clear
+  fullName: NucleusWPF.MVVM.DependencyInjection.Clear()
+  nameWithType: DependencyInjection.Clear()
+- uid: NucleusWPF.MVVM.DependencyInjection.Clear*
+  name: Clear
+  href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Clear_
+  commentId: Overload:NucleusWPF.MVVM.DependencyInjection.Clear
+  isSpec: "True"
+  fullName: NucleusWPF.MVVM.DependencyInjection.Clear
+  nameWithType: DependencyInjection.Clear
 - uid: NucleusWPF.MVVM.DependencyInjection.Instance
   name: Instance
   href: api/NucleusWPF.MVVM.DependencyInjection.html#NucleusWPF_MVVM_DependencyInjection_Instance
