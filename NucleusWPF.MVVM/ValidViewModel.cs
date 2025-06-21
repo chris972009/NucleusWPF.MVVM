@@ -11,6 +11,9 @@ namespace NucleusWPF.MVVM
     {
         private readonly Dictionary<string, List<string>> _errors = new Dictionary<string, List<string>>();
 
+        /// <summary>
+        /// Inidates whether the ViewModel has any validation errors.
+        /// </summary>
         public bool HasErrors => _errors.Count > 0;
 
         /// <inheritdoc/>
