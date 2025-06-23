@@ -12,10 +12,6 @@ Provides essential services, dependency injection, and command implementations t
 - **ViewModelBase**: Base class implementing `INotifyPropertyChanged` for property change notifications.
 - **ValidViewModel**: Base class implementing `INotifyDataErrorInfo` for validation scenarios.
 
-## Getting Started
-
-
-
 ### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
