@@ -46,6 +46,7 @@
         /// </summary>
         public async Task ExecuteAsync()
         {
+            if (!_canExecute()) return;
             if (Interlocked.CompareExchange(ref _isExecuting, 1, 0) != 0) return;
             RaiseCanExecuteChanged();
             try
@@ -154,6 +155,7 @@
         /// <param name="t">The parameter to be passed to the execute action.</param>
         public async Task ExecuteAsync(T t)
         {
+            if (!_canExecute(t)) return;
             if (Interlocked.CompareExchange(ref _isExecuting, 1, 0) != 0) return;
             RaiseCanExecuteChanged();
             try

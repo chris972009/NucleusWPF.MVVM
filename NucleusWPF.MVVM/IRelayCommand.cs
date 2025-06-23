@@ -11,6 +11,9 @@ namespace NucleusWPF.MVVM
     /// depends on external conditions that may change dynamically.</remarks>
     public interface IRelayCommand : ICommand
     {
+        /// <summary>
+        /// Raises the <see cref="ICommand.CanExecuteChanged"/> event, indicating that the command's ability to execute may have changed."/>
+        /// </summary>
         public void RaiseCanExecuteChanged();
     }
 }

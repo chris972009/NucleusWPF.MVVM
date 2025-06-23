@@ -43,6 +43,7 @@
         /// <inheritdoc/>
         public void Execute(object? parameter)
         {
+            if (!_canExecute()) return;
             try
             {
                 _execute();
@@ -128,6 +129,7 @@
                 if (parameter is not T t)
                     throw new ArgumentException($"Parameter must be of type {typeof(T).Name}", nameof(parameter));
 
+                if (!_canExecute(t)) return;
                 _execute(t);
             }
             catch (Exception ex)
