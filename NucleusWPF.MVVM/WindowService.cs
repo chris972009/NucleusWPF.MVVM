@@ -77,18 +77,25 @@ namespace NucleusWPF.MVVM
             //get ViewModel type and check for explicit mapping
             var viewModelType = viewModel.GetType();
             if (_mappedWindows.TryGetValue(viewModelType, out var windowType))
-                return InitializeWindow(viewModelType, windowType);
+                return InitializeWindow(viewModel, windowType);
 
             //check that ViewModel meets naming convention
-            var viewModelName = viewModelType.Name;
+            var viewModelName = viewModelType.FullName;
+
+            //name not found
+            if (viewModelName is null) 
+                throw new InvalidOperationException("ViewModel type must have a valid FullName");
+
+            //invalid suffix
             if (!viewModelName.EndsWith(_viewModelSuffix, StringComparison.Ordinal))
                 throw new ArgumentException($"'{viewModel}' must end with '{_viewModelSuffix}'");
 
             //resolve view type by convention
             var viewSuffix = suffix ?? defaultViewSuffix;
-            var viewName = viewModelName.AsSpan(0, _viewModelSuffix.Length).ToString() + viewSuffix;
+            var viewName = viewModelName.AsSpan(0, viewModelName.Length - _viewModelSuffix.Length).ToString() + viewSuffix;
             viewName = viewName.Replace(".ViewModels.", ".Views.");
-            var viewType = Type.GetType(viewName);
+            //var viewType = Type.GetType(viewName);
+            var viewType = viewModelType.Assembly.GetType(viewName);
             _ = viewType ?? throw new InvalidOperationException($"Could not find a view for '{viewModel}'");
             return InitializeWindow(viewModel, viewType);
         }
